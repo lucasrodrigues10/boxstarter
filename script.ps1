@@ -18,10 +18,8 @@ $Boxstarter.NoPassword=$true # Is this a machine with no login password?
 # Basic setup
 Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-#Enable-RemoteDesktop
 Disable-InternetExplorerESC
 #Disable-UAC
-#Set-TaskbarSmall
 
 # disable defrag because I have an SSD 
 Get-ScheduledTask -TaskName *defrag* | Disable-ScheduledTask 
@@ -40,7 +38,15 @@ choco install visualstudio2019professional -y
 cinst qbittorrent -y
 cinst everything -y
 cinst telegram -y
-cinst vscode -y
+cinst notepadplusplus -y
+cinst nuget.commandline -y
+cinst winscp -y
+cinst webex-meetings -y
+cinst zoom -y
+cinst mremoteng -y
+cinst whatsapp -y
+cinst nodejs -y
+cinst obs-studio -y
 
 # Update Windows and reboot if necessary
 Install-WindowsUpdate -AcceptEula -GetUpdatesFromMS
