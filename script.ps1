@@ -2,7 +2,7 @@
 
 #The command to run, built from the raw link of this gist
 
-#START http://boxstarter.org/package/nr/url?https://gist.github.com/automatonic/7771dfd7015a72453091/raw/4cbbf4811d11929ebe0f98c51f04e7476179c13f/example.boxstarter
+#START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/lucasrodrigues10/boxstarter/master/script.ps1
 
 #Special windowsy stuff. see http://boxstarter.org/WinConfig
 
@@ -34,7 +34,6 @@ cinst firefox -y
 cinst 7zip.install -y
 cinst spotify -y
 cinst vlc cmder -y
-choco install visualstudio2019professional -y
 cinst qbittorrent -y
 cinst everything -y
 cinst telegram -y
@@ -50,6 +49,7 @@ cinst obs-studio -y
 cinst psake -y
 cinst git -y
 cinst tortoisesvn -y
+cinst visualstudio2019professional -y
 
 # Update Windows and reboot if necessary
 Install-WindowsUpdate -AcceptEula -GetUpdatesFromMS
