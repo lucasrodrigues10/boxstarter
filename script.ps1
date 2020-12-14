@@ -47,6 +47,9 @@ cinst mremoteng -y
 cinst whatsapp -y
 cinst nodejs -y
 cinst obs-studio -y
+cinst psake -y
+cinst git -y
+cinst tortoisesvn -y
 
 # Update Windows and reboot if necessary
 Install-WindowsUpdate -AcceptEula -GetUpdatesFromMS
